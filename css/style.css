@@ -106,6 +106,8 @@ nav{
     background-color: #e8e8e8;
     height: 450px;
     width: 350px;
+    position: relative;
+    cursor: pointer;
 }
 
 .cards img{
@@ -113,9 +115,65 @@ nav{
     width: 100%;
 }
 
+.hearts{
+    background-color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
+.hearts:hover{
+    color: red;
+}
 
+.hearts-contain{
+    position: relative;
+    cursor: pointer;
+}
 
+.tags{
+    position: absolute;
+    left:0;
+    bottom: 50px;
+}
+
+.scount,.green{
+    padding: 5px;
+}
+
+.scount{
+    background-color: red;
+    color: white;
+}
+
+.green{
+    color: white;
+    background-color: green;
+}
+
+.marca{
+    font-size: 15px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.scount-price{
+    color: red;
+}
+
+.original-price{
+    color: black;
+    text-decoration: line-through;
+}
 
 
 
