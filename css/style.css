@@ -39,7 +39,11 @@
 .bg{
     height: 80px;
     background-color: #ff6900;
-    margin-bottom: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 header{
@@ -99,7 +103,7 @@ nav{
 
 .square{
     margin-bottom: 30px;
-    margin-top: 15px;
+    margin-top: 70px;
 }
 
 .cards{
