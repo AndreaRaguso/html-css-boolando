@@ -27,6 +27,10 @@
     justify-content: space-between;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 
 
 
@@ -88,7 +92,15 @@ nav{
     margin-right: 5px;
 }
 
+
+
 /* CARDS */
+
+
+.square{
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
 
 .cards{
     background-color: #e8e8e8;
@@ -102,4 +114,47 @@ nav{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+.bg-foot{
+    background-color:#1a1a1a;
+    height: 90px;
+    color: white;
+}
+
+.foot-up{
+    margin-top: 20px;
+}
+
+.foot-bott ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.foot-bott ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-social{
+    width: 10%;
+    padding-left: 280px;
+}
+
+.foot-social i{
+    font-size: 25px;
+    padding: 10px;
+}
 
