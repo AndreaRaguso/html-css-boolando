@@ -179,11 +179,19 @@ nav{
     text-decoration: line-through;
 }
 
+.image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+.img2{
+    display: none;
+}
 
-
-
-
+.image:hover .img2{
+    display: inline-block;
+}
 
 
 
