@@ -128,7 +128,7 @@ nav{
     padding: 10px 0;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 20px;
 }
 
 .hearts:hover{
